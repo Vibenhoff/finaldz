@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-10T22:09:38.450543",
+    "source": "Suricata"
+  },
+  "summary": {
+    "total_ips_checked": 6,
+    "threats_found": 3,
+    "suspicious_found": 5,
+    "critical_threats": 2,
+    "top_categories": [
+      {
+        "category": "Suspicious DNS",
+        "count": 5
+      },
+      {
+        "category": "A Network Trojan was Detected",
+        "count": 3
+      },
+      {
+        "category": "Attempted Information Leak",
+        "count": 2
+      },
+      {
+        "category": "Potential Corporate Privacy Violation",
+        "count": 1
+      },
+      {
+        "category": "Potentially Bad Traffic",
+        "count": 1
+      }
+    ]
+  },
+  "dns_analysis": {
+    "total_queries": 6,
+    "unique_domains": 2
+  },
+  "threat_details": [
+    {
+      "ip": "185.220.101.45",
+      "malicious": 16,
+      "suspicious": 3,
+      "category": "Attempted Information Leak",
+      "count": 2,
+      "severity_max": 2,
+      "event_types": [
+        "alert"
+      ]
+    },
+    {
+      "ip": "194.165.16.11",
+      "malicious": 13,
+      "suspicious": 1,
+      "category": "A Network Trojan was Detected",
+      "count": 2,
+      "severity_max": 1,
+      "event_types": [
+        "alert"
+      ]
+    },
+    {
+      "ip": "45.33.32.156",
+      "malicious": 4,
+      "suspicious": 1,
+      "category": "Potential Corporate Privacy Violation",
+      "count": 1,
+      "severity_max": 3,
+      "event_types": [
+        "alert"
+      ]
+    },
+    {
+      "ip": "192.168.1.15",
+      "malicious": 0,
+      "suspicious": 0,
+      "category": "Suspicious DNS",
+      "count": 5,
+      "severity_max": 2,
+      "event_types": [
+        "dns"
+      ]
+    },
+    {
+      "ip": "91.92.109.14",
+      "malicious": 0,
+      "suspicious": 1,
+      "category": "Potentially Bad Traffic",
+      "count": 2,
+      "severity_max": 2,
+      "event_types": [
+        "alert"
+      ]
+    },
+    {
+      "ip": "103.41.124.25",
+      "malicious": 0,
+      "suspicious": 1,
+      "category": "Attempted Administrator Privilege Gain",
+      "count": 1,
+      "severity_max": 1,
+      "event_types": [
+        "alert"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+ip,malicious,suspicious,category,count,severity_max,event_types
+185.220.101.45,16,3,Attempted Information Leak,2,2,['alert']
+194.165.16.11,13,1,A Network Trojan was Detected,2,1,['alert']
+45.33.32.156,4,1,Potential Corporate Privacy Violation,1,3,['alert']
+192.168.1.15,0,0,Suspicious DNS,5,2,['dns']
+91.92.109.14,0,1,Potentially Bad Traffic,2,2,['alert']
+103.41.124.25,0,1,Attempted Administrator Privilege Gain,1,1,['alert']
